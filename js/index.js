@@ -16,7 +16,7 @@ for (let k = 1; k <= 20; k += 1){
 
 for (let number = 1; number <= 10; number += 1){
     let result = 7 * number;
-    console.log(result)
+    console.table(`7 x ${number} = ${result}`)
 }
 
 
